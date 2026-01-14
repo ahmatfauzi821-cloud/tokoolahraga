@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang | Uzisport</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="logo">Uzisport</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="keranjang.html">🛒 Keranjang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <main style="width: 100%">
+            <h2>Keranjang Belanja</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Produk</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody id="daftar-keranjang">
+                    <!-- DATA JS MASUK DI SINI -->
+                </tbody>
+            </table>
+
+            <h3 style="margin-top: 20px;">
+                Total: <span id="total-harga">Rp 0</span>
+            </h3>
+        </main>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Uzisport</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+        tampilkanKeranjang();
+    </script>
+
+</body>
+
+</html>
